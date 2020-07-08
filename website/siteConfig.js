@@ -21,27 +21,34 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  // title: 'Test Site', // Title for your website.
+  // tagline: 'A website for testing',
+  // url: 'https://your-docusaurus-test-site.com', // Your website URL
+  // baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
+  //   url: 'https://facebook.github.io', // Replace 'facebook' with your GitHub username
+  //   baseUrl: '/test-site/',  // The name of your GitHub project.
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  // projectName: 'test-site', // The name of your GitHub project. Same as 'baseUrl'
+  // organizationName: 'facebook', // Your GitHub username
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
+  title: 'Docusaurus Tutorial Site',
+  tagline: 'A website for Docusaurus Tutorial',
+  url: 'https://rama5789.github.io',
+  baseUrl: '/docusaurus-tutorial/',
+  projectName: 'docusaurus-tutorial',
+  organizationName: 'rama5789',
+
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    { doc: 'doc1', label: 'Docs' },
+    { doc: 'doc4', label: 'API' },
+    { page: 'help', label: 'Help' },
+    { blog: true, label: 'Blog' },
   ],
 
   // If you have users set above, you add it here:

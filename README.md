@@ -1,5 +1,7 @@
 # Docusaurus Tutorial :
 
+- https://docusaurus.io/docs/en/tutorial-setup
+
 ```bash
 # Install Docusaurus Project Dependencies:
 -------------------------------------------------
@@ -59,4 +61,56 @@ docusaurus-tutorial
     │       └── undraw_youtube_tutorial.svg
     └── yarn.lock
 Done in 0.95s.
+
+-------------------------------------------------
+# Start Project in Dev Mode:
+-------------------------------------------------
+$ yarn start    # or, $ npm start
+
+$ docusaurus-start
+LiveReload server started on port 35729
+Docusaurus server started on port 3000
+
+-------------------------------------------------
+# Production Build:
+-------------------------------------------------
+$ yarn build    # or, $ npm run build
+
+$ docusaurus-build
+generate.js triggered...
+feed.js triggered...
+feed.js triggered...
+sitemap.js triggered...
+Site built successfully. Generated files in 'build' folder.
+Done in 30.12s.
+
+-------------------------------------------------
+# Publish the site into Github:
+-------------------------------------------------
+$ GIT_USER=rama5789 CURRENT_BRANCH=master npm run publish-gh-pages
+
+> @ publish-gh-pages /home/rama/Downloads/github/docusaurus-tutorial/website
+> docusaurus-publish
+
+master
+https://github.com/rama5789/docusaurus-tutorial.git
+generate.js triggered...
+feed.js triggered...
+feed.js triggered...
+sitemap.js triggered...
+Site built successfully. Generated files in 'build' folder.
+b86b99dd990f272515110f425d4cb3be9d4e8ec1
+Cloning into 'docusaurus-tutorial-gh-pages'...
+master
+error: pathspec 'origin/gh-pages' did not match any file(s) known to git.
+Switched to a new branch 'gh-pages'
+::::::::::::::::::::::::::::::
+Password for 'https://rama5789@github.com':
+remote:
+remote: Create a pull request for 'gh-pages' on GitHub by visiting:
+remote:      https://github.com/rama5789/docusaurus-tutorial/pull/new/gh-pages
+remote:
+To https://github.com/rama5789/docusaurus-tutorial.git
+ * [new branch]      gh-pages -> gh-pages
+Website is live at: https://rama5789.github.io/docusaurus-tutorial
 ```

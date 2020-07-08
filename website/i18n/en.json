@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "A website for Docusaurus Tutorial",
     "docs": {
       "doc1": {
         "title": "Latin-ish",
@@ -14,6 +14,9 @@
       },
       "doc3": {
         "title": "This is document number 3"
+      },
+      "doc9": {
+        "title": "This is Doc 9"
       },
       "doc4": {
         "title": "Other Document"
